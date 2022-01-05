@@ -5,5 +5,4 @@ export interface Car{
     colorId: number;
     modelYear : number;
     description : string;
-
 }
