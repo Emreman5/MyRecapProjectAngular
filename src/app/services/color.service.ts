@@ -7,7 +7,7 @@ import { ColorResponseModel } from '../models/ColorResponseModel';
   providedIn: 'root'
 })
 export class ColorService {
-  apiurl = "https://localhost:44372/api/colors/getall"
+  apiurl =  "https://localhost:44372/api/colors/getall"
 
   constructor(private httpclient : HttpClient) { }
 
